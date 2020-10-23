@@ -20,6 +20,7 @@ public class SettingsActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //This means, it will display the <- sign and when we click on it will show the homepage directly
-       getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+      // getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

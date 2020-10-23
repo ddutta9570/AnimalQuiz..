@@ -20,6 +20,7 @@
         android:summary="@string/animal_types_description"
         android:persistent="true"
         android:defaultValue="@array/type_of_animals_values">
+        <!-- persistant is very important, when user change the setting it will save the setting to the shared preferences -->
 
     </MultiSelectListPreference>
 
@@ -32,6 +33,9 @@
         android:persistent="true"
         android:defaultValue="@string/default_color_black">
 
+        <!-- persistant is very important, when user change the setting it will save the setting to the shared preferences -->
+
+
     </ListPreference>
 
     <ListPreference
@@ -42,6 +46,7 @@
         android:title="@string/choose_font"
         android:persistent="true"
         android:defaultValue="@string/default_font">
+        <!-- persistant is very important, when user change the setting it will save the setting to the shared preferences -->
 
     </ListPreference>
 
